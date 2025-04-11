@@ -33,7 +33,7 @@ def make_call():
     call = client.calls.create(
         to=TARGET_PHONE_NUMBER,
         from_=PERSONAL_PHONE_NUMBER,
-        url='https://c97a-2607-fea8-e1-5c00-851e-82bd-fa60-da5c.ngrok-free.app/voice'
+        url='https://your-app-name.onrender.com/voice'
     )
     print(f"Call initiated! SID: {call.sid}")
 
