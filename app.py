@@ -61,7 +61,7 @@ PERSONAL_PHONE_NUMBER = os.environ.get('PERSONAL_PHONE_NUMBER')
 TARGET_PHONE_NUMBER = os.environ.get('TARGET_PHONE_NUMBER')
 
 # The direct link to your audio file (Google Drive or other host)
-AUDIO_URL = 'https://www.dropbox.com/scl/fi/mt8ufzzxto7xn46xpe07o/voice2.mp3?rlkey=ir1y7bbwezhwjsnnne60umlex&st=flhys9z5&dl=1'
+AUDIO_URL = 'https://www.dropbox.com/scl/fi/mt8ufzzxto7xn46xpe07o/voice2.mp3?rlkey=ir1y7bbwezhwjsnnne60umlex&st=7en0mjpm&dl=1'
 
 # === END USER SETUP ===
 
