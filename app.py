@@ -41,7 +41,7 @@ if __name__ == '__main__':
     import threading
 
     # Start the Flask server in a separate thread
-    threading.Thread(target=lambda: app.run(host="0.0.0.0", port=int(os.environ.get('PORT', 5000)))
+    threading.Thread(target=lambda: app.run(host="0.0.0.0", port=int(os.environ.get('PORT', 5000)))).start()
 
     input("Press Enter to make the call...")
     make_call()
